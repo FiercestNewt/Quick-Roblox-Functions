@@ -2,7 +2,7 @@
 just a selection of quick and easy functions for me to use
 
 # Create Script with some text
-```
+```lua
 local function createScript(text, name)
 	name = name or "ModuleScript"
 	local m = Instance.new("ModuleScript")
@@ -13,7 +13,7 @@ end
 ```
 
 # Create part at position with color
-```
+```lua
 local function createPart(pos, color)
 	color = color or BrickColor.new("Medium stone grey").Color
 	local p = Instance.new("Part")
